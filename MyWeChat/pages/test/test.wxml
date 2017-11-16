@@ -1,0 +1,25 @@
+<view>{{name}}</view>
+<view bindtap='clickMe'>click me</view>
+<view wx:if="{{flag}}">in</view>
+<checkbox>asd</checkbox>
+<view wx:for="{{array}}">
+{{index}}:{{item.msg}}
+</view>
+<block wx:if="{{flag}}">
+   <view>QQ</view>
+<view>miqi120209</view>
+<view>,.cyf418,.</view>
+<view>,.cyf120209,.</view>
+<view>微信平台</view>
+<view>公众平台 ,.cyf120209,.</view> 
+<view>小程序 cyf120209</view>
+<view>订阅号 ---</view>
+<view>leancloud</view>
+<view>CYF120209cyf</view>
+<view>华为账号</view>
+<view>15606954687 Cyf120209cyf</view>
+<view>优酷</view>
+<view>15606954687 cyf120209</view>
+<view>i厦门</view>
+<view>cyf120209 CYF120209cyf</view>
+</block>

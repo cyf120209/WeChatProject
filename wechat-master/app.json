@@ -1,0 +1,49 @@
+
+{
+  "pages":[
+    "pages/cyf/index/index",
+    "pages/cyf/list/list",
+    "pages/cyf/cart/cart",
+    "pages/cyf/mine/mine",
+    "pages/cyf/detail/detail"
+  ],
+  
+  "tabBar": {
+    "color": "#858585",
+    "selectedColor": "#008842",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list":[
+      {
+        "pagePath": "pages/cyf/index/index",
+        "iconPath": "images/icons/btn-tabs_01.png",
+        "selectedIconPath": "images/icons/btn-tabs_07.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/cyf/list/list",
+        "iconPath": "images/icons/btn-tabs_03.png",
+        "selectedIconPath": "images/icons/btn-tabs_08.png",
+        "text": "分类"
+      },{
+        "pagePath": "pages/cyf/cart/cart",
+        "iconPath": "images/icons/btn-tabs_05.png",
+        "selectedIconPath": "images/icons/btn-tabs_09.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/cyf/mine/mine",
+        "iconPath": "images/icons/btn-tabs_06.png",
+        "selectedIconPath": "images/icons/btn-tabs_10.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#008842",
+    "navigationBarTitleText": "微信电商",
+    "navigationBarTextStyle": "white"
+  },
+  "debug": true
+}
