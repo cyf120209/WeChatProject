@@ -17,7 +17,7 @@ Page({
 
         util.showBusy('正在登录')
         var that = this
-
+        //test
         // 调用登录接口
         qcloud.login({
             success(result) {
